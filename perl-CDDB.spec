@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
 Summary(pl):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokó³ CDDB
@@ -37,10 +41,13 @@ komentarze czy s³owa piosenek.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
