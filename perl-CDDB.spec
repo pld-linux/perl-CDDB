@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	CDDB perl module
-Summary(pl):	Modu³ perla do CDDB
+Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
+Summary(pl):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokó³ CDDB
 Name:		perl-CDDB
 Version:	1.12
 Release:	1
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
 # Source0-md5:	e426a8ad306748e53fd644862a05e989
@@ -14,10 +15,19 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module/script gets the CDDB info for an audio cd.
+CDDB is a high-level interface to cddb protocol servers (freedb and
+CDDB).  CDDB protocol (cddbp) servers provide compact disc information
+for programs that need it.  This allows such programs to display disc
+and track titles automatically, and it provides extended information
+like liner notes and lyrics.
 
 %description -l pl
-Ten modu³/skrypt zbiera informacje z bazy CDDB dla p³yt audio CD.
+CDDB jest wysokopoziomowym interfejsem do baz danych opartych o
+protokó³ CDDB (Compact Disc DataBase). Serwery protoko³u CDDB (cddbp)
+udostêpniaj± programom, które tego potrzebuj±, informacje o dyskach
+CD. Umo¿liwia to takim programom automatyczne wy¶wietlanie tytu³ów
+dysków i ¶cie¿ek, a tak¿e dodatkowych informacji, takich jak
+komentarze czy s³owa piosenek.
 
 %prep
 %setup -q -n CDDB-%{version}
