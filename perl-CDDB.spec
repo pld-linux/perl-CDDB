@@ -2,12 +2,12 @@
 Summary:	CDDB perl module
 Summary(pl):	Modu³ perla do CDDB
 Name:		perl-CDDB
-Version:	1.11
+Version:	1.12
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
-# Source0-md5:	98d212cc7676857b98179649d61a49ee
+# Source0-md5:	e426a8ad306748e53fd644862a05e989
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
