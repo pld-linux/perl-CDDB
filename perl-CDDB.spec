@@ -22,7 +22,7 @@ Ten modu³/skrypt zbiera informacje z bazy CDDB dla p³yt audio CD.
 %setup -q -n CDDB-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
