@@ -2,7 +2,7 @@
 Summary:	CDDB perl module
 Summary(pl):	Modu³ perla do CDDB
 Name:		perl-CDDB
-Version:	1.07
+Version:	1.08
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
