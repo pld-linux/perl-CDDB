@@ -8,7 +8,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.icm.edu.pl/pub/CPAN/authors/id/R/RC/RCAPUTO/CDDB-%{version}.tar.gz
+Source0:	 ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/CDDB-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
 BuildArch:	noarch
