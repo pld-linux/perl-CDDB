@@ -6,7 +6,7 @@ Version:	1.08
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/CDDB/CDDB-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
