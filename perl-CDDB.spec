@@ -3,16 +3,17 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	CDDB
 Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
 Summary(pl):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokó³ CDDB
 Name:		perl-CDDB
-Version:	1.15
+Version:	1.16
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
-# Source0-md5:	978aaecd665af4988d33d8f3df392fb7
+# Source0-md5:	4753c73ac7162ab18d1508ae02d40014
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -20,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CDDB is a high-level interface to cddb protocol servers (freedb and
-CDDB).  CDDB protocol (cddbp) servers provide compact disc information
-for programs that need it.  This allows such programs to display disc
+CDDB). CDDB protocol (cddbp) servers provide compact disc information
+for programs that need it. This allows such programs to display disc
 and track titles automatically, and it provides extended information
 like liner notes and lyrics.
 
