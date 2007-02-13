@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CDDB
 Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
-Summary(pl.UTF-8):   CDDB - wysokopoziomowy interfejs do baz danych opartych o protokół CDDB
+Summary(pl.UTF-8):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokół CDDB
 Name:		perl-CDDB
 Version:	1.17
 Release:	1
