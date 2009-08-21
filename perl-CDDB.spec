@@ -7,13 +7,13 @@
 Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
 Summary(pl.UTF-8):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokół CDDB
 Name:		perl-CDDB
-Version:	1.17
-Release:	2
+Version:	1.21
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
-# Source0-md5:	b026752a6d25f70ed87a6854b15e93f7
+# Source0-md5:	9cfad0b6be00aa7c1cb76697edafd9a5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
