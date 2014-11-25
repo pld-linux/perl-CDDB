@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CDDB
+%include	/usr/lib/rpm/macros.perl
 Summary:	CDDB - high-level interface to databases based on the Compact Disc DataBase protocol
 Summary(pl.UTF-8):	CDDB - wysokopoziomowy interfejs do baz danych opartych o protokół CDDB
 Name:		perl-CDDB
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDDB/CDDB-%{version}.tar.gz
 # Source0-md5:	9cfad0b6be00aa7c1cb76697edafd9a5
+URL:		http://search.cpan.org/dist/CDDB/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
